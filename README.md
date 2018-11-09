@@ -4,8 +4,12 @@ The Redfin scraper allows you to fetch the dynamic data from redfin.com about re
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
 Pip install BeautifulSoup4
+
+'Example'
+>>> from bs4 import BeautifulSoup
+>>> soup = BeautifulSoup("<p>Some<b>bad<i>HTML")
