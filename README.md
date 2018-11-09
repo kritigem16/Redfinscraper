@@ -10,6 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 Pip install BeautifulSoup4
 
-'Example'
->>> from bs4 import BeautifulSoup
->>> soup = BeautifulSoup("<p>Some<b>bad<i>HTML")
+```
+from bs4 import BeautifulSoup
+```
+
